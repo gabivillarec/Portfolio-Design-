@@ -1,0 +1,45 @@
+.container{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    cursor: pointer;
+    user-select: none;
+    background-color: #14120E;
+    border: none;
+    margin: 15px;
+}
+
+h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contenedorLogo{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    margin-left: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.logo{
+cursor: pointer;
+user-select: none;
+background-color: rgb(199, 163, 96);
+color: #14120E;
+width: 70px;
+height: 70px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 22px;
+font-weight: bold;
+}
