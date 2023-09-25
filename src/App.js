@@ -8,7 +8,6 @@ function App() {
   
   return (
     <div className={style.App}>
-
       <Home/>
     </div>
   );

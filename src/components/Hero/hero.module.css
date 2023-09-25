@@ -1,0 +1,31 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+h1{
+    
+    margin-left: 200px;
+    font-family: 'Lora', serif;
+    user-select: none;
+    font-size: 11rem;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.line{
+    width: 200px;
+    height: 1px;
+    background-color: rgb(199, 163, 96);
+    margin-left: 350px;
+    user-select: none;
+}
+
+p{
+    width: 70%;
+    margin-left: 400px;
+    font-size: 40px;  
+}

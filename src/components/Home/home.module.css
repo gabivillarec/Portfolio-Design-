@@ -1,7 +1,6 @@
 .container{
-    width: 100vw;
+    max-width: 100%;
     height: 100vh;
     background-color: #14120E;
     color:#CCCCCC;
-    overflow: hidden;
 }
