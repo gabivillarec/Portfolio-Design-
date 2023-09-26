@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+h2{
+    
+    margin-left: 350px;
+    font-family: 'Lora', serif;
+    user-select: none;
+    font-size: 5rem;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.line{
+
+    width: 200px;
+    height: 1px;
+    background-color: rgb(199, 163, 96);
+    margin-left: 350px;
+    margin-right: 50px;
+    user-select: none;
+}
+
+.text{
+    width: 70%;
+    margin-left: 400px;
+    font-size: 30px;  
+}
+
+.link {
+    color:white;
+    text-decoration-color: rgb(199, 163, 96);
+    margin-left: 400px;
+    font-size: 20px;
+    margin-bottom: 120px;  
+}
+
+.img {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}

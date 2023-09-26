@@ -8,10 +8,15 @@ const Section = (props) =>{
         <div className={style.container}>
 
             <h2>{props.titulo}</h2>
-            <div className={style.line}>Fecha Proyecto tecnología</div>
-            <p>{props.text}</p>
+
+            <div className={style.info}>
+                <div className={style.line}></div>
+                <p>Fecha Proyecto tecnología</p>
+            </div>
+            <p className={style.text}>{props.text}</p>
+            <a className={style.link} href={props.link}>ver proyecto</a>
             <img className={style.img} src={props.image} alt=''/>
-            
+
         </div>
     )
 }

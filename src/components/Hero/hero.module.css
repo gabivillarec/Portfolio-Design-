@@ -24,8 +24,8 @@ h1{
     user-select: none;
 }
 
-p{
+.text{
     width: 70%;
     margin-left: 400px;
-    font-size: 40px;  
+    font-size: 30px;  
 }
