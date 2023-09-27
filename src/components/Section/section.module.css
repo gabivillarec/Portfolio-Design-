@@ -44,8 +44,22 @@ h2{
     margin-bottom: 120px;  
 }
 
-.img {
-    margin: auto;
-    width: 50%;
+.imagen {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    height: 900px;
+    width: 1440px;
+    padding-left: 10px;
     margin-bottom: 50px;
+    margin-left: 350px;
+    border-left: 2px solid rgb(199, 163, 96);
+    overflow: hidden;
+    box-shadow: 2px 2px 18px -4px rgba(0,0,0,0.75);
+}
+
+.imagen img{
+    height: 100%;
+    width: 100%; /* Ajusta la altura de la imagen al 100% del div */
+    object-fit: cover; /* Hace que la imagen se ajuste y cubra todo el espacio disponible */
 }

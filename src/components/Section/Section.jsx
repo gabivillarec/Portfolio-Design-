@@ -15,7 +15,9 @@ const Section = (props) =>{
             </div>
             <p className={style.text}>{props.text}</p>
             <a className={style.link} href={props.link}>ver proyecto</a>
-            <img className={style.img} src={props.image} alt=''/>
+            <div className={style.imagen}>
+            <img src={props.image} alt=''/>
+            </div>
 
         </div>
     )
