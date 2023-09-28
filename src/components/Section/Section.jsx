@@ -13,6 +13,7 @@ const Section = (props) =>{
                 <div className={style.line}></div>
                 <p>Fecha Proyecto tecnología</p>
             </div>
+            
             <p className={style.text}>{props.text}</p>
             <a className={style.link} href={props.link}>ver proyecto</a>
             <div className={style.imagen}>

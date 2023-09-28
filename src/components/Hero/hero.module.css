@@ -2,13 +2,12 @@
 .container{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
-h1{
-    
-    margin-left: 200px;
+h1{  
+    margin-right: 250px;
     font-family: 'Lora', serif;
     user-select: none;
     font-size: 11rem;
@@ -18,14 +17,13 @@ h1{
 
 .line{
     width: 200px;
+    margin-right: 1250px;
     height: 1px;
     background-color: rgb(199, 163, 96);
-    margin-left: 350px;
     user-select: none;
 }
 
 .text{
-    width: 70%;
-    margin-left: 400px;
+    width: 67%; 
     font-size: 30px;  
 }

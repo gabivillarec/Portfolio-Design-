@@ -1,23 +1,26 @@
 .container{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
 h2{
     
-    margin-left: 350px;
+    
     font-family: 'Lora', serif;
     user-select: none;
     font-size: 5rem;
     color: white;
+    margin-right: 1000px;
 }
 
 .info{
     display: flex;
     flex-direction: row;
-    align-items: center;    
+    align-items: center; 
+    margin-right: 1000px;
+    position: relative;
 }
 
 .line{
@@ -25,23 +28,21 @@ h2{
     width: 200px;
     height: 1px;
     background-color: rgb(199, 163, 96);
-    margin-left: 350px;
     margin-right: 50px;
     user-select: none;
 }
 
 .text{
-    width: 70%;
-    margin-left: 400px;
+    width: 67%;
     font-size: 30px;  
 }
 
 .link {
     color:white;
     text-decoration-color: rgb(199, 163, 96);
-    margin-left: 400px;
     font-size: 20px;
-    margin-bottom: 120px;  
+    margin-bottom: 120px;
+    margin-right: 1280px;  
 }
 
 .imagen {
@@ -52,7 +53,6 @@ h2{
     width: 1440px;
     padding-left: 10px;
     margin-bottom: 50px;
-    margin-left: 350px;
     border-left: 2px solid rgb(199, 163, 96);
     overflow: hidden;
     box-shadow: 2px 2px 18px -4px rgba(0,0,0,0.75);
